@@ -2,6 +2,8 @@ body{
     height:100vh;
     display:flex;
     flex-direction: column;
+    margin:0;
+    padding:0;
 }
 ul{
     text-decoration: none;
@@ -19,9 +21,12 @@ li{
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
+    gap: 60px;
     justify-content: center;
     align-items: center;
     padding: 80px;
+    background-color: #102c4d;
+    color:#fff;
 }
 .nav{
     display:flex;
@@ -38,6 +43,8 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: darkgray;
+    color:#fff
 }
 .container-two{
     display: flex;
@@ -69,8 +76,8 @@ li{
     border-radius: 5px;
 }
 
-.container-three p{
-    font-size: 22px;
+.container-three em{
+    font-size: 25px;
     text-align: left;
     width: 550px;
 }
@@ -78,6 +85,8 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: lightgray;
+    padding: 80px;
 }
 .inner{
     display:flex;
@@ -95,13 +104,18 @@ li{
 button{
     width: 100px;
     height: 30px;
+    border-radius: 5px;;
 }
 .color-one{
     background-color: #34286933;
 }
 footer{
     text-align: center;
+    background-color: #102c4d;
+    color: #fff;
+    padding: 10px;
 }
 p.small{
     text-align: right;
+    font-weight: 900;
 }
